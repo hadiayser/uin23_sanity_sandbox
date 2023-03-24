@@ -16,7 +16,7 @@ export default {
             options: {
                 source: 'product_title',
                 slugify: input => input
-                                     .toLowerCase()
+                                     .toLowerCase() 
                                      .replace(/\s+/g, '-')
                                      .slice(0, 200)
               }
